@@ -1,8 +1,7 @@
 'use strict';
 
-let a = 1;
-let b = 4;
-let test = 2;
+let a = {};
+let b = {};
 // Task #1
 let result1 = a === 0 ? console.log('Верно') : console.log('Неверно');
 // Task #2
@@ -16,9 +15,9 @@ let result5 = a <= 0 ? console.log('Верно') : console.log('Неверно')
 // Task #6
 let result6 = a !== 0 ? console.log('Верно') : console.log('Неверно');
 // Task #7
-let result7 = a === test ? console.log('Верно') : console.log('Неверно');
+let result7 = a === 'test' ? console.log('Верно') : console.log('Неверно');
 // Task #8
-let result8 = a === 1 ? console.log('Верно') : console.log('Неверно');
+let result8 = a === '1' ? console.log('Верно') : console.log('Неверно');
 // Task #9
 let result9 = a > 0 && a < 5 ? console.log('Верно') : console.log('Неверно');
 // Task #110
